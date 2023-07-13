@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Hook from './component/Hook.js'
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <aside>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </aside>
+      <main>
+        <content>
+          <Hook></Hook>
+        </content>
+      </main>
+      <footer>
+        2023-07-13
+      </footer>
     </div>
   );
 }
